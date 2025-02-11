@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Película</title>
+    <link rel="stylesheet" href="diseño.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>Registro de Película</h2>
+        <form>
+            <label for="titulo">Título de la película:</label>
+            <input type="text" id="titulo" name="titulo" required>
+
+            <label for="duracion">Duración (minutos):</label>
+            <input type="number" id="duracion" name="duracion" min="1" required>
+
+            <label for="fechaEstreno">Fecha de estreno:</label>
+            <input type="date" id="fechaEstreno" name="fechaEstreno" required>
+
+            <label for="genero">Género:</label>
+            <select id="genero" name="genero">
+                <option value="accion">Acción</option>
+                <option value="comedia">Comedia</option>
+                <option value="drama">Drama</option>
+                <option value="terror">Terror</option>
+                <option value="cienciaFiccion">Ciencia Ficción</option>
+            </select>
+
+            <label>Clasificación:</label>
+            <div class="radio-group">
+                <label><input type="radio" name="clasificacion" value="AA" required> AA</label>
+                <label><input type="radio" name="clasificacion" value="A"> A</label>
+                <label><input type="radio" name="clasificacion" value="B"> B</label>
+                <label><input type="radio" name="clasificacion" value="B15"> B15</label>
+                <label><input type="radio" name="clasificacion" value="C"> C</label>
+                <label><input type="radio" name="clasificacion" value="D"> D</label>
+            </div>
+
+            <label>Formatos disponibles:</label>
+            <div class="radio-group">
+                <label><input type="radio" name="formato" value="2D"> 2D</label>
+                <label><input type="radio" name="formato" value="3D"> 3D</label>
+                <label><input type="radio" name="formato" value="IMAX"> IMAX</label>
+            </div>
+
+            <label for="sinopsis">Sinopsis:</label>
+            <textarea id="sinopsis" name="sinopsis" rows="4"></textarea>
+
+            <button type="submit">Registrar Película</button>
+        </form>
+    </div>
+
+</body>
+</html>
