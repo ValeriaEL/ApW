@@ -1,0 +1,49 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.container {
+    max-width: 500px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.tarea-texto {
+    display: inline-block;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    min-width: 200px;
+    margin-right: 10px;
+}
+
+#lista_tareas {
+    list-style-position: inside;
+}
+
+.btn-eliminar {
+    background-color: #4d65ff;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-actualizar {
+    background-color: #ffc107;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.tachado {
+    text-decoration: line-through;
+    color: #8b8a8a;
+}
