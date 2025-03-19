@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #ffffff;
+}
+
+h1 {
+    text-align: center;
+    color: #000000;
+    font-weight: bold;
+}
+
+h2 {
+    text-align: center;
+    color: #000000;
+    font-weight: bold;
+}
+
+form {
+    max-width: 900px;
+    margin: auto;
+    text-align: center;
+    padding: 50px;
+    border: 1px solid #023b81;
+    border-radius: 5px;
+    background-color: #023b81;
+    font-weight: bold;
+}
+
+input,
+select {
+    height: 35px;
+    font-size: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+button {
+    width: 100%;
+    background-color: #0475ff;
+    color: #ffffff;
+    font-weight: bold;
+    height: 50px;
+    font-size: 50px;
+    padding: 10px 20px;
+    margin-top: 15px;
+    display: block;
+}
+
+.table th,
+.table td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #023b81;
+}
+
+.table th {
+    background-color: #023b81;
+    border: 1px solid #a8c3e3;
+}
+
+.btn-warning,
+.btn-danger {
+    padding: 5px 5px;
+    font-size: 14px;
+    height: auto;
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.btn-warning {
+    background-color: #48b0f5;
+    border-color: #ffc107;
+    color: #ffffff;
+    height: auto;
+}
+
+.btn-danger {
+    background-color: #151176;
+    border-color: #dc3545;
+    color: #ffffff;
+}
